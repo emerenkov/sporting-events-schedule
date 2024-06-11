@@ -1,0 +1,56 @@
+
+.countdown-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.countdown-item {
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 30px;
+    margin: 10px;
+    padding-top: 10px;
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.countdown-item span {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.countdown-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+}
+
+.Block-go {
+    margin: 0 auto 72px;
+    border-radius: 15px;
+    width: 401px;
+    height: 77px;
+    background-color: #3D8D44;
+}
+
+.Span-go {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-justify: auto;
+    color: #FFFFFF;
+}
