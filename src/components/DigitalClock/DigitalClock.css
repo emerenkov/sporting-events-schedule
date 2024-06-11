@@ -1,0 +1,51 @@
+.Block-clock {
+    background: rgb(31,55,104);
+    background: linear-gradient(0deg, rgba(31,55,104,1) 50%, rgba(23,42,82,1) 50%);
+    width: 320px;
+    height: 247px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .5);
+}
+
+.Time {
+    display: inline-block;
+    width: 283px;
+    height: 131px;
+    font-size: 96px;
+    font-weight: Bold;
+    color: white;
+}
+
+.Date {
+    display: inline-block;
+    width: 244px;
+    height: 102px;
+    font-size: 37px;
+    font-weight: Bold;
+    color: white;
+}
+
+.Body-clock {
+    width: 320px;
+    height: 140px;
+}
+
+.Body-time {
+    /*margin-top: 60px;*/
+    display: inline-block;
+    width: 283px;
+    height: 101px;
+    /*line-height: 115px;*/
+    font-size: 86px;
+    font-weight: Bold;
+    color: #ffffff
+}
+
+.Body-date {
+    display: inline-block;
+    width: 244px;
+    height: 42px;
+    font-size: 22px;
+    font-weight: Bold;
+    color: #ffffff;
+}
